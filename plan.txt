@@ -5,7 +5,7 @@ based on device no aut (auto detect)
 graph for expense tracking  (monthly, weekly)
 
 tech stack:
-frontend - react, redux, typescript, tailwind 
+frontend - react, redux, typescript, tailwind, populer component library
 backend - nodejs, express, typescript, sequelize (ORM) 
 database - postgressql
 
@@ -22,4 +22,25 @@ expense table
 
 using antigravity gemini 3.1 pro (high)
 
-give structure setup prompt...
+frontend structure:
+src/
+  components/
+  redux/
+  services/
+  pages/
+   category/slice service category.tsx
+   expense/
+   navbar/ sidebar
+   home/
+  App.tsx
+  index.tsx
+
+backend structure:
+src/
+  models/
+  services/
+  modules/
+    category/(controller, service and repo)
+    expense/(controller, service and repo)
+  app.ts
+  server.ts
