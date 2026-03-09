@@ -1,0 +1,25 @@
+expense-tracker project plan.txt file 
+
+expense-category for expense selection
+based on device no aut (auto detect)
+graph for expense tracking  (monthly, weekly)
+
+tech stack:
+frontend - react, redux, typescript, tailwind 
+backend - nodejs, express, typescript, sequelize (ORM) 
+database - postgressql
+
+Vibe code only.
+
+page design:
+category insert page
+expense insert page
+graph display page (add excel download option)
+
+db design:
+category table
+expense table
+
+using antigravity gemini 3.1 pro (high)
+
+give structure setup prompt...
